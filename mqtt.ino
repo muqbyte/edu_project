@@ -1,8 +1,8 @@
-// #include <ESP8266WiFi.h> //please uncomment
+#include <ESP8266WiFi.h> //please uncomment
 // #include <MQTT.h>    // BY Joel Gaehwiller //please uncomment
 
 // Library and constants for DHT11
-// #include "DHT.h"
+#include "DHT.h"
 #define DHTPIN D5    // Digital pin connected to the DHT sensor IO D5
 DHT dht(DHTPIN,DHT11);
 unsigned long previousMillis = 0;
